@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:ital@1&family=Fragment+Mono:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Secular+One&display=swap');
+
+/* font-family: 'Asap Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Secular One', sans-serif; */
+
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    width: 12vw;
+    height: 14vw;
+    margin: 0 auto;
+}
+
+/* Style each of the sides
+  with a fixed width and height */
+.slide {
+    float: left;
+    width: 12vw;
+    height: 20vw;
+    text-align: center;
+    padding-top: 12vw;
+    font-family: 'Dancing Script', cursive;
+    ;
+    font-size: 0.6vw;
+}
+
+.slide-number {
+    float: left;
+    width: 12vw;
+    height: 2vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    ;
+    font-size: 1vw;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(12vw * 4);
+
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 10s ease infinite;
+}
+
+/* Set the background color
+  of each of the slides */
+.slide:nth-child(1) {
+    background-image: url('images/CookieMonster.png');
+    background-repeat: no-repeat;
+    background-size: 12.5vw;
+
+}
+
+.slide:nth-child(2) {
+    background-image: url('images/Erica.jpg');
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: 12.5vw;
+}
+
+.slide:nth-child(3) {
+    background-image: url('images/TortaBelén.jpg');
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: 12.5vw;
+}
+
+.slide:nth-child(4) {
+    background-image: url('images/Gabrielacake.jpg');
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: 12.5vw;
+}
+
+/* Define the animation
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-12vw * 1);
+    }
+
+    60% {
+        margin-left: calc(-12vw * 2);
+    }
+
+    80% {
+        margin-left: calc(-12vw* 3);
+    }
+}

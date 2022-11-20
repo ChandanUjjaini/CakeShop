@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:ital@1&family=Fragment+Mono:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Secular+One&display=swap');
+
+/* font-family: 'Asap Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Secular One', sans-serif; */
+
+.grid-container {
+    display: grid;
+    width: 51vw;
+    gap: 1vw;
+    padding: 100vw;
+    grid-template-columns: auto auto auto auto;
+    padding: 1vw;
+
+
+}
+
+.container {
+    padding-left: 25vw;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    text-align: center;
+    width: 12vw;
+    height: 20vw;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2vw;
+    border-style: solid;
+    border-color: antiquewhite;
+    border: 1px solid;
+    box-shadow: 0.2em 0.3em 0.3em #888888;
+
+}
+
+img {
+    height: 70%;
+    width: 100%
+}
+
+
+
+.item {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

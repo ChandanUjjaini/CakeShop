@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Fragment+Mono:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=Fragment+Mono:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Secular+One&display=swap');
+
+/* font-family: 'Asap Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Secular One', sans-serif; */
+.left {
+    float: left;
+    height: 43.5vw;
+    width: 60%;
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+}
+
+.right {
+    float: right;
+    height: 43.5vw;
+    width: 40%;
+
+    background-image: linear-gradient(silver, ivory);
+    background-size: cover;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 1.6vw;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a:hover {
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+
+}
+
+li {
+    float: left;
+    border-right: auto solid rgb(10, 10, 10);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: khaki;
+    width: auto;
+    height: auto;
+
+}
+
+.nobull {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Asap Condensed', sans-serif;
+    font: semibold;
+    color: black;
+    text-decoration: none;
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    background-position: center;
+    background-position: relative;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 0.4vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 0.4vw 2vw;
+    cursor: pointer;
+    background-color: olive;
+    background-position: relative;
+    border-radius: 5vw;
+    border-style: outset;
+    border-width: 0.4vw;
+}
+
+header {
+    font-family: 'Secular One', sans-serif;
+    font-size: 1vw;
+}
+
+h10 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.2vw;
+
+}
+
+h11 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    padding-left: 1vw;
+    font-size: 2.2vw;
+
+}
+
+.message {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.About {
+    float: left;
+    height: 14vw;
+    width: 42vw;
+    text-align: center;
+    padding-left: 25vw;
+    padding-right: 1.6vw;
+
+}
+
+.founder {
+    float: left;
+    height: 10vw;
+    width: 2vw;
+    background-image: url('images/founder.png');
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    background-position: top left;
+    background-color: #04AA6D;
+    border-radius: 20%;
+    padding-right: 7.5vw;
+    margin-top: 2vw;
+    border-style: solid;
+    border-color: antiquewhite;
+    border: 1px solid;
+    box-shadow: 0.5em 0.6em 0.7em #888888;
+}
+
+.name {
+    float: right;
+    height: 6vw;
+    width: 15vw;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 100vw;
+    padding-right: 18vw;
+}
+
+hr {
+    width: 100%;
+    margin-top: 2vw;
+}
+
+footer {
+    text-align: center;
+
+}
+
+.fa {
+    padding: 0.4vw;
+    font-size: 5vw;
+    width: 9vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.blurred span {
+    filter: blur(50px);
+}
