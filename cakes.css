@@ -81,5 +81,48 @@ img {
     background-image: linear-gradient(silver, ivory);
     background-size: cover;
     text-align: center;
+}
+.item3 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    height: 0.2vw;    
+    background-size: cover;
+    text-align: center;
 
+}
+.item4 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    height: 18vw;    
+    background-size: cover;
+    text-align: center;
+
+}
+.grid-container2 {
+  display: grid;
+  
+  
+  
+}
+
+.grid-itemm {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0;  
+}
+
+.itema {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+}
+
+.items {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+
+.itemc {
+  grid-column: 1 / span 1;
+  grid-row: 3;
+  height: 3w;
 }
